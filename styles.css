@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1476547822494-8a4a225b3af0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e13b09e3163148464dfe591eb2d002b1&auto=format&fit=crop&w=2251&q=80");
+    background-size: cover;
+    background-color: black;
+    z-index:-2;
+}
+
+#jokeDisplay {
+    color: white;
+    font-size: 2.9em;
+    opacity: 0.80;
+}
+
+hr {
+    width: 50%;
+    color: white;
+    opacity: 0.5;
+    border-bottom: solid white;
+}
+
+.container {
+    height: 20em;
+    text-align: center;
+}
+
+h1, p {
+    max-width: 25em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    Font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+    text-align: center;
+}
+
+#nextJoke {
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+#nextJoke:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+}
